@@ -33,6 +33,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   void loginUser() async {
     setState(() {
+
       _isLoading = true;
     });
     String res = await AuthMethods().loginUser(

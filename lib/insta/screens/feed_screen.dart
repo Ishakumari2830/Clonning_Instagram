@@ -27,6 +27,7 @@ class feedScreen extends StatelessWidget {
               child: CircularProgressIndicator(),
             );
           }
+
           return ListView.builder(
             itemCount: snapshot.data!.docs.length,
 

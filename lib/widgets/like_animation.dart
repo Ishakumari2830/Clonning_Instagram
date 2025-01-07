@@ -38,6 +38,7 @@ class _likeAnimationState extends State<likeAnimation>
       startAnimation();
     }
   }
+
   
   startAnimation() async{
     if(widget.isAnimating || widget.smallLike){

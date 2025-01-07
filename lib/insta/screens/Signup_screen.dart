@@ -62,6 +62,7 @@ class _LoginScreenState extends State<SignupScreen> {
       username: _usernameController.text.trim(),
       bio: _bioController.text.trim(),
       file: _image!,
+
     );
     setState(() {
       _isLoading = false;

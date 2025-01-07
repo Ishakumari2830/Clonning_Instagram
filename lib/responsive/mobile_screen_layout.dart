@@ -109,6 +109,7 @@ class _MobileScreenLayoutState extends State<MobileScreenLayout> {
             color: _page == 4 ? primaryColor : secondaryColor,
           ),
           label: "",
+
           backgroundColor: primaryColor,
         ),
       ],

@@ -33,6 +33,7 @@ class _CommentScreenState extends State<CommentScreen> {
       appBar: AppBar(
         backgroundColor: mobileBackgroundColor,
         title: Text('comments'),
+
         centerTitle: false,
       ),
       body: StreamBuilder(
